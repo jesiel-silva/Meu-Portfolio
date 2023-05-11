@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+:root {
+  /* Cores de preenchimento */
+  --color-bg: #0a192f;
+  --color-bg2: #1a1818;
+  --color-bg3: #463f3a;
+  --color-bg4:#133b63;
+  --color-bg5: #333333;
+  --color-bg6: #000000;
+  
+  /* cores padrão */
+  --color-light1: #ffffff;
+  --color-light2: #d7cbbd;
+  --color-light3: #e9ecef;
+  --color-light4: #d4e0ff;
+  --color-gray1: #a8a8a8;
+  --color-gray2: #8b8c89;
+  --color-green1: #a4c3b2;
+  --color-green2:#1f363d;
+  --color-blue1: #17a2b885;
+  --color-blue2: #66becc;
+  --color-blue3: #1251e8;
+  --color-blue4: rgba(18, 82, 232, 0.623);
+  --color-black1:#212529;
+  --color-black2:#3d280e;
+  --color-black3:#272e30;
+  --color-red1:#d6697c;
+  --color-purple: #8a2be2;
+
+  /* Fontes */
+  --montserrat: "Montserrat", sans-serif;
+  --poppins: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;  
+  font-family: var(--poppins);
+  background-color: var(--color-bg6);
+  scroll-behavior: smooth;
+}

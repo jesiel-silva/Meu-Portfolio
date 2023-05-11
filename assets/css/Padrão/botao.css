@@ -1,0 +1,14 @@
+.botao {
+    color: var(--color-light4);
+    font-size: 1.6rem;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--color-blue3);
+    border: 2px solid transparent;
+    transition: background-color .6s ease-in;
+}
+
+.botao:hover {
+    background-color: transparent;
+    border:2px solid var(--color-blue3);
+    border-radius: 20px;
+}

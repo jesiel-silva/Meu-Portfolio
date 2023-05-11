@@ -1,0 +1,136 @@
+.secao__contato {
+    height: 100vh;
+}
+
+.secao__contato .container {
+    height: 100%;
+}
+
+.contato__content {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.781)), url(../../image/steven-houston-d2lO9btumD4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: var(--montserrat);
+    margin: 0 auto;
+}
+
+.contatos__form {
+    width: 53rem;   
+    display: flex;
+    flex-direction: column;
+}
+
+.form__grup {
+    position: relative; 
+    margin-bottom: 2.5rem;    
+}
+
+.contatos__form input {
+    padding: 15px 10px;     
+}
+
+.contatos__form input,
+.contatos__form textarea {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--color-light4);
+    font-weight: 100;    
+    border: none;
+    box-sizing: border-box; 
+    outline: none;
+    border-bottom: 2px solid var(--color-light4);
+    background-color: transparent;
+}
+
+.contatos__form textarea {
+    height: 10rem;    
+    resize: none; 
+    background-color: #1f1f1fde; 
+    padding: 15px 10px;
+}
+
+.contatos__form a {
+    text-align: center;
+}
+
+.contatos__form span {
+
+    content: 'Novo conteudo';
+    position: absolute;
+    left: 15px;
+    top: 15px;    
+    color: var(--color-light4);
+    font-size: 1.5rem;
+    font-weight: 100;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: .5;
+}
+
+.contatos__form input:focus ~ span,
+.contatos__form textarea:focus ~ span,
+.contatos__form input:valid ~ span{
+    transform: translateY(-35px) translateX(-10px);
+    opacity: 1;
+    font-size: 1.8rem;
+}
+
+.contatos__form input:focus ~ span::after {
+    content: ' para Contato';
+}
+
+.contato__lista {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato__lista h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--color-light4);
+}
+
+.contatos__sociais{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.contatos__sociais i {
+    font-size: 2.6rem;
+    color: var(--color-gray2);
+}
+
+.contatos {
+    padding: 30px 0;
+}
+
+.contatos ul li {
+    font-size: 1.8rem;
+    line-height: 5rem;
+    color: var(--color-light4);
+    display: flex;
+    align-items: center;
+}
+
+.contatos ul li i {
+    font-size: 3rem;
+    padding-right: 10px;
+}
+
+.contatos ul li:nth-child(1) i {
+    color: #38bd48;
+}
+
+.contatos ul li:nth-child(2) i {
+    color: #34B7F1;
+}

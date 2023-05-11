@@ -1,0 +1,40 @@
+.secao__sobre {
+    height: 100vh;
+}
+
+.secao__sobre .container {
+    height: 100%;
+}
+
+.sobre__content {
+    height: calc(100vh - 14rem);
+    display: flex;
+    align-items: center;
+}
+
+
+.sobre__texto {
+    flex: 1;
+    padding: 1.8rem;
+}
+
+.sobre__texto h3 {
+    font-size: 12rem;
+    font-weight: 100;
+    color: var(--color-light4);
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    text-align: center;
+    text-shadow: 0px 0px 20px #cccccc;
+}
+
+.parag__sobre {
+    flex: 1;
+    color: var(--color-light4);
+    font-family: var(--montserrat);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+    padding-right: 15px;
+}

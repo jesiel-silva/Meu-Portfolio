@@ -1,0 +1,106 @@
+html {
+    background-color: #030303;
+}
+hr {
+    margin-top: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(36, 36, 36, 0.801), rgba(0, 0, 0, 0.945)), url(../../assets/image/background2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;  
+}
+
+.container-cv { 
+    height: 100%;   
+    display: flex;
+    align-items: center;
+}
+
+.container_exper {
+    padding: 1rem 20rem;
+    background-color: rgba(24, 24, 24, 0.884);
+    box-sizing: border-box;
+}
+
+.referencia {
+    flex: 1;
+}
+
+.referencia h3 {
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
+
+.referencia h1 {
+    font-size: 5rem;
+}
+
+.referencia hr {
+    margin-bottom: 2rem;
+}
+
+.referencia h2, p {
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+
+.referencia h1, h2, h3, p {
+    color: var(--color-light4);
+}
+
+.f_perfil {  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.exper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.exper h2 {
+    color: var(--color-light4);
+    font-size: 4rem;    
+}
+
+.exper p {
+    color: var(--color-light4);
+    font-size: 1.8rem;
+    margin-top: 40px;
+    font-weight: 200;
+    width: 800px;
+}
+
+.exper_item {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.texto_data {
+    flex: 1;
+}
+
+.texto_desc {
+    flex: 2;
+}
+
+.texto_data p, 
+.texto_desc p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+
+
+
+
+
