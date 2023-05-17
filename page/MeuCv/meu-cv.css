@@ -48,7 +48,7 @@ hr {
     line-height: 4rem;
 }
 
-.referencia h1, h2, h3, p {
+.referencia h1, h2, h3{
     color: var(--color-light4);
 }
 
@@ -94,9 +94,16 @@ hr {
 }
 
 .texto_data p, 
-.texto_desc p{
+.texto_desc p,
+.texto_desc li{
     font-size: 1.6rem;
     font-weight: 200;
+    color: var(--color-light4);
+}
+
+.texto_desc li {
+    padding: 1.3rem 0;
+    line-height: 2.3rem
 }
 
 
