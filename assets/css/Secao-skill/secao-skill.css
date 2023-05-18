@@ -37,17 +37,18 @@
     border-top: 5px solid var(--color-light4);
     background-color: var(--color-bg5);
     box-shadow: 10px 10px 10px #00000080;
+    transition: 0.4s;
 }
+
+.card:hover {
+    border-top: 5px solid var(--color-blue3);
+}
+
 
 .card span i {
     font-size: 16rem;
     color: var(--color-light4);
     cursor: pointer;
-    transition: 0.4s;
-}
-
-.card span i:hover {
-    filter: blur(4px);    
 }
 
 .card p {
