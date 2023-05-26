@@ -38,7 +38,7 @@
 .contatos__form input,
 .contatos__form textarea {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--color-light4);
     font-weight: 100;    
     border: none;
@@ -83,6 +83,10 @@
 
 .contatos__form input:focus ~ span::after {
     content: ' para Contato';
+}
+
+.contatos__form textarea:focus ~ span::before {
+    content: 'Deixe uma ';
 }
 
 .contato__lista {
